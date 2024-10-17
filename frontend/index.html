@@ -1,0 +1,46 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Web App</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include any required fonts or icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <!-- SVG Logo -->
+        <a href="/">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <!-- SVG content -->
+            <circle cx="50" cy="50" r="40" fill="#ff6b6b"/>
+            <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="30" font-family="Montserrat" dy=".3em">SWA</text>
+          </svg>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" id="login-link">Login</a></li>
+        <li><a href="#" id="register-link">Register</a></li>
+        <li><a href="#" id="logout-link" style="display: none;">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="app">
+    <!-- Content will be injected by JavaScript -->
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Secure Web App</p>
+    <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Service</a></li>
+    </ul>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
